@@ -14,13 +14,6 @@ class App extends Component {
     return (
      
       <div className="container">
-        <div className="row">
-          <div className="col-xs-1 col-xs-offset-11">
-            <Home name={'John'} age={12} user={user} >
-              <p>I am a child </p>
-            </Home>
-          </div>
-        </div>
 
         <div className="row">
           <div className="col-xs-1 col-xs-offset-11">
@@ -33,6 +26,16 @@ class App extends Component {
             <Header />
           </div>
         </div>
+
+        <div className="row">
+          <div className="col-xs-1 col-xs-offset-11">
+            <Home name={'John'} initialAge={12} user={user} >
+              <p>I am a child </p>
+            </Home>
+          </div>
+        </div>
+
+        
 
       </div>
     );

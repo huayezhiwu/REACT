@@ -6,4 +6,4 @@ create-react-app
 
 传递数据
 
-事件
+事件及DOM更新（即通过state更新页面）
